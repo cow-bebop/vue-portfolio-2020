@@ -4,6 +4,10 @@
     <div class="image">
       <img alt="top画像" src="../assets/top-bg.jpg" />
     </div>
+    <div id="nav">
+      <router-link to="/">Home</router-link>|
+      <router-link to="/about">About</router-link>
+    </div>
   </div>
 </template>
 

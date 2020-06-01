@@ -1,11 +1,13 @@
 <template>
   <div id="app">
-    <Header msg="KEO's PORTFOLIO" />
-    <Top />
     <div id="nav">
       <router-link to="/">Home</router-link>|
-      <router-link to="/about">About</router-link>
+      <router-link to="/about">About</router-link>|
+      <router-link to="/work">Work</router-link>
     </div>
+    <Header msg="KENGO's PORTFOLIO" />
+    <Top />
+
     <router-view />
   </div>
 </template>
