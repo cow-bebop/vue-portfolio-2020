@@ -1,26 +1,17 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link>|
-      <router-link to="/about">About</router-link>|
-      <router-link to="/work">Work</router-link>
-    </div>
     <Header msg="KENGO's PORTFOLIO" />
-    <Top />
-
     <router-view />
   </div>
 </template>
 
 <script>
 import Header from "@/components/Header.vue";
-import Top from "@/components/Top.vue";
 
 export default {
   name: "App",
   components: {
-    Header,
-    Top
+    Header
   }
 };
 </script>
